@@ -85,12 +85,23 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    margin: 70px 0 0 0;
 
-section i {
-    padding: 10px;
-    color: white;
-    font-size: 20px;
+    & i {
+        margin: 7px;
+        padding: 18px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    & .fa-brands {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 footer {
